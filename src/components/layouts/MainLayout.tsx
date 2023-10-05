@@ -27,7 +27,8 @@ export const MainLayout = () => {
     },
   ];
 
-  const onChange = async (key: string) => {};
+  const onChange = async (key: string) => {console.log(key);
+  };
 
   return (
     <main>
